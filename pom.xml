@@ -13,6 +13,22 @@
     </dependencies>
   
   <build>
+  <resources>
+    <resource>
+      <directory>src/main/resources</directory>
+      <filtering>true</filtering>
+    </resource>
+  </resources>
+</build> 
+ 
+<properties>
+  <mavenBuildTimestamp>${maven.build.timestamp}</mavenBuildTimestamp>
+</properties>
+  
+  
+  
+  
+  <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
