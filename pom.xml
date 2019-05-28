@@ -23,6 +23,13 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+      
+      <properties>
+    <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
+    <buildNumber>v.${project.version} build ${maven.build.timestamp}</buildNumber>
+</properties>
+      
+      
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.0.0</version>
