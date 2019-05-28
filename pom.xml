@@ -24,10 +24,7 @@
         </configuration>
       </plugin>
       
-      <properties>
-    <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
-    <buildNumber>v.${project.version} build ${maven.build.timestamp}</buildNumber>
-</properties>
+     
       
       
       <plugin>
