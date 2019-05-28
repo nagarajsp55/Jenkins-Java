@@ -12,12 +12,6 @@
   	</dependency>
     </dependencies>
   
-  
-  
-  <build>
-  <finalName>${project.artifactId}</finalName>
-</build
-  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
