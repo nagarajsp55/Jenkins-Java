@@ -4,14 +4,7 @@
 <html lang="en">
 
   <head>
-	  
-	  
-	  # Build Time Information
-build.timestamp=${mavenBuildTimestamp}
-	  
-
-    
-	  
+	    
 	  
 	  
 	  <meta charset="utf-8">
